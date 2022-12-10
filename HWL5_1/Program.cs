@@ -32,9 +32,9 @@ void PrintArray(int[] array)
 int CountOfEven(int[] array)
 {
 	int count = 0;
-	for (int i = 0; i < array.Length; i++)
+	foreach (int item in array)
 	{
-		if (array[i] % 2 == 0)
+		if (item % 2 == 0)
 		{
 			count++;
 		}
